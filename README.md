@@ -2,7 +2,7 @@
 A Raspberry Pi Webcam using HDMI output with capture card
 
 # Approach
-The approach for this pi-webcam is to auto-login into pi OS desktop, to run camera preview at fullscreen, and to capture the HDMI output with a capture card. Plenty of other pi-webcam projects exist which configure the pi as a USB gadget, and transfer the video over that USB connection. While this HDMI capture card approach simplifies the pi configuration, it does likely cost more than just buying a webcam with comparable capabilities, but we're just having fun here. 
+The approach for this pi-webcam is to auto-login into pi OS desktop, to run camera preview at fullscreen, and to capture the HDMI output with a capture card. Other pi-webcam projects exist which configure the pi as a USB gadget and transfer the video over that USB connection. While this HDMI capture card approach simplifies the pi configuration, it does likely cost more than just buying a simple webcam with comparable capabilities, but we're just having fun here... 
 
 # Install
 - Install Raspberry Pi OS (with Desktop)
