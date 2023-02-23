@@ -14,13 +14,12 @@ The approach for this pi-webcam is to auto-login into pi OS desktop, to run came
 - Configure camera autostart 
   - create directory $HOME/.config/autostart if it doesn't already exist
   - create file $HOME/.config/autostart/pi-webcam.desktop with the following content:
-  - NOTE: you may need to create the autostart/ directory
-```
-[Desktop Entry]
-Type=Application
-Name=Pi-Webcam
-Exec=/usr/bin/libcamera-vid -t 0 --fullscreen --awb indoor
-```
+  ```
+  [Desktop Entry]
+  Type=Application
+  Name=Pi-Webcam
+  Exec=/usr/bin/libcamera-vid -t 0 --fullscreen --awb indoor
+  ```
 - After next pi desktop startup, the camera will appear full screen over the HDMI connection
 
 # Hardware
