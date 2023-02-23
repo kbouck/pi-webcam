@@ -7,8 +7,10 @@ The approach for this pi-webcam is to auto-login into pi OS desktop, to run came
 # Install
 - Install Raspberry Pi OS (with Desktop)
 - Configure user auto-login
-- Disable screen blanking 
-- Configure headless screen resolution
+- Configure display preferences 
+  - Navigate to Pi Menu -> Preferences -> Raspberry Pi Configuration -> Display
+  - Disable screen blanking
+  - Configure headless screen resolution
 - Configure camera autostart 
   - create directory $HOME/.config/autostart if it doesn't already exist
   - create file $HOME/.config/autostart/pi-webcam.desktop with the following content:
